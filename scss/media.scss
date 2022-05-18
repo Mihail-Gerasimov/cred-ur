@@ -1,0 +1,65 @@
+@media (max-width: 425px) {
+    .header {
+        background-size: cover;
+        margin-bottom: 20px !important;
+
+        &__content {
+            padding-bottom: 0 !important;
+        }
+
+        &__title {
+            font-size: 20px;
+            line-height: 25px;
+            padding-bottom: 8px !important;
+        }
+    }
+
+    .description {
+        margin-bottom: 30px !important;
+
+    }
+
+    .desctiption__title {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .description__argument {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .title-qestion {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .text-qestion {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .question__input+label::before {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .text-qestion::after {
+        width: 11px;
+        height: 11px;
+        left: 7px;
+    }
+
+    .question-input-style {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 375px) {}
